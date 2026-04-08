@@ -5,10 +5,6 @@ This project is a real-time weather alert system designed to provide early warni
 
 The primary goal of this project is to support rural communities and farmers by providing timely and localized weather alerts, helping them prepare in advance and reduce potential losses.
 
-## 📌 Overview
-This project is a real-time weather alert system...
-
----
 
 ## 📸 Screenshots
 
@@ -16,14 +12,7 @@ This project is a real-time weather alert system...
 ![Dashboard](screenshots/Dashboard.png)
 
 ### 🌧️ Weather Alert Example
-![Alert](screenshots/Weather_Prediction.png)
-
-### 📍 Admin Panel
-![Admin Panel](screenshots/Admin_Panel.png)
-
-### 📍 Contact
-![Contact](screenshots/Contact.png)
----
+![Alert](screenshots/alert.png)
 
 ---
 
