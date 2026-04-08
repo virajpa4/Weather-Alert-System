@@ -1,7 +1,7 @@
 # 🌦️ Smart Weather Alert System (50 KM Radius Notification)
 
 ## 📌 Overview
-This project is a real-time weather alert system designed to provide early warnings about weather conditions such as rainfall and wind speed. The system notifies users within a 50-kilometer radius when significant weather changes are detected in nearby locations.
+Developing a real-time weather alert system using Django and weather APIs. The current system provides weather predictions such as rainfall and wind speed, with ongoing development focused on implementing location-based alert features (50 km radius notification system).
 
 The primary goal of this project is to support rural communities and farmers by providing timely and localized weather alerts, helping them prepare in advance and reduce potential losses.
 
@@ -29,7 +29,7 @@ This system aims to solve this problem by:
 ## ⚙️ Features
 - 🌧️ Real-time rain detection and alerts  
 - 🌬️ Wind speed monitoring (km/h)  
-- 📍 Location-based notification system (50 km radius)  
+- 📍 Planned: 50 km radius location-based alert system (under development)  
 - 🔔 Alert system for nearby users  
 - 🌐 API-based weather data integration  
 - 📊 Dynamic weather data display (temperature, humidity, etc.)  
