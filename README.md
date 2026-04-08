@@ -1,54 +1,117 @@
-<<<<<<< HEAD
-# Django-Weather-Web-App
+# 🌦️ Smart Weather Alert System (50 KM Radius Notification)
 
-- In this  **WEATHER WEB APP WITH COMPLETE AUTHENTICATION** project you can find the current weather of any location in the world .
-- This app covers India, US, Europe and other parts of the world. 
-- This app brings you the latest information on weather condition. 
+## 📌 Overview
+This project is a real-time weather alert system designed to provide early warnings about weather conditions such as rainfall and wind speed. The system notifies users within a 50-kilometer radius when significant weather changes are detected in nearby locations.
 
+The primary goal of this project is to support rural communities and farmers by providing timely and localized weather alerts, helping them prepare in advance and reduce potential losses.
 
-## FEATURES
-- This web app allows user to search weather if any location.
-- This app contains a **weather blog** where you can find the different blogs by admin. 
-- User can also **Signup** , **login**  and get to know about the different features of this app.
-- User can **Reset Password** if forgot old passowrd.
-- User can **Update Password**
-- User can **Contact** admin.
+## 📌 Overview
+This project is a real-time weather alert system...
 
+---
 
-## TECHNOLOGY USED
-- Django framework (Python)
-- Bootstrap 4
-- HTML 
+## 📸 Screenshots
 
+### 🖥️ Dashboard View
+![Dashboard](screenshots/dashboard.png)
 
+### 🌧️ Weather Alert Example
+![Alert](screenshots/Weather_Prediction.png)
 
-## SCREENSHOTS
+### 📍 Admin Panel
+![Admin Panel](screenshots/Admin_Panel.png)
 
-![image](https://user-images.githubusercontent.com/61831021/121796062-d68e9900-cc33-11eb-9952-aabc47e9a599.png)
+### 📍 Contact
+![Contact](screenshots/Contact.png)
+---
 
-![image](https://user-images.githubusercontent.com/61831021/121796071-f02fe080-cc33-11eb-95f7-9a31114c4a99.png)
+---
 
-![image](https://user-images.githubusercontent.com/61831021/121796072-f625c180-cc33-11eb-9cb8-05e18c45bb5d.png)
-![image](https://user-images.githubusercontent.com/61831021/121796075-faea7580-cc33-11eb-924d-50b68823a1ff.png)
-![image](https://user-images.githubusercontent.com/61831021/121796081-00e05680-cc34-11eb-9961-96af7d429773.png)
-![image](https://user-images.githubusercontent.com/61831021/121796086-089ffb00-cc34-11eb-8cc0-51c828116516.png)
-![image](https://user-images.githubusercontent.com/61831021/121796089-105f9f80-cc34-11eb-9e3c-9e7cf5c5dbba.png)
-![image](https://user-images.githubusercontent.com/61831021/121796091-148bbd00-cc34-11eb-9b2d-e7fa03f32613.png)
-![image](https://user-images.githubusercontent.com/61831021/121796094-18b7da80-cc34-11eb-8ed3-df016453a3cf.png)
-![image](https://user-images.githubusercontent.com/61831021/121796096-1c4b6180-cc34-11eb-8703-88577f11b76a.png)
-![image](https://user-images.githubusercontent.com/61831021/121796098-1f465200-cc34-11eb-97c2-d30fc33a3f4c.png)
-![image](https://user-images.githubusercontent.com/61831021/121796101-279e8d00-cc34-11eb-9883-35dbe77c0e9a.png)
-![image](https://user-images.githubusercontent.com/61831021/121796119-5e74a300-cc34-11eb-98bc-2f260fba56d0.png)
+## 🎯 Problem Statement
+In many rural areas, farmers do not receive timely weather updates, which leads to crop damage and financial loss due to sudden rainfall or strong winds.
 
-## REFERENCE
+This system aims to solve this problem by:
+- Providing real-time alerts
+- Covering nearby regions (up to 50 km)
+- Delivering actionable weather information
 
-- For Django Framework
-    • https://docs.djangoproject.com/en/3.1/
+---
 
-- For Python
+## ⚙️ Features
+- 🌧️ Real-time rain detection and alerts  
+- 🌬️ Wind speed monitoring (km/h)  
+- 📍 Location-based notification system (50 km radius)  
+- 🔔 Alert system for nearby users  
+- 🌐 API-based weather data integration  
+- 📊 Dynamic weather data display (temperature, humidity, etc.)  
+- 🐳 Containerized deployment using Docker  
+- ☁️ Cloud deployment (Railway platform - in progress)
 
-    • https://www.python.org/doc/
+---
 
-=======
-# Weather-Alert-System
->>>>>>> a2398fe1fddbdfdb1499bd7529ff23bc135795fe
+## 🧠 System Architecture
+User Location → Weather API → Django Backend → Processing Logic → Radius Calculation → Notification System
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend:
+- Python
+- Django
+
+### Frontend:
+- HTML
+- CSS
+
+### APIs:
+- Weather API (e.g., OpenWeather / Tomorrow.io)
+
+### Tools & Deployment:
+- Docker (containerization)
+- Railway (cloud deployment)
+- Git & GitHub
+
+---
+
+## 📍 How It Works
+1. The system collects real-time weather data using external APIs.
+2. It detects weather conditions such as rainfall and wind speed.
+3. If a weather event is detected in a specific location, the system calculates a 50 km radius.
+4. Users within this radius receive alerts, allowing them to prepare in advance.
+
+---
+
+## 🚀 Future Enhancements
+- 📱 Mobile app integration  
+- 📡 Improved prediction using machine learning  
+- 🌾 Crop-specific recommendations for farmers  
+- 🔔 SMS/Push notification system  
+- 🌍 Multi-location tracking and dashboard  
+
+---
+
+## 💡 Impact
+This project is designed to create real-world impact by:
+- Helping farmers take preventive actions  
+- Reducing crop damage  
+- Improving access to localized weather information  
+- Supporting smart agriculture initiatives  
+
+---
+
+## 📌 Status
+🚧 Currently under active development and improvement  
+(Continuous updates and feature enhancements in progress)
+
+---
+
+## 👨‍💻 Author
+**Viraj Yogesh Patil**  
+- GitHub: https://github.com/virajpa4  
+- LinkedIn: https://www.linkedin.com/in/viraj4patil/
+
+---
+
+## ⭐ Note
+This project reflects my interest in building scalable, real-time systems that solve real-world problems, particularly in agriculture and rural development.
