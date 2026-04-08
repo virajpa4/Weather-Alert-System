@@ -13,7 +13,7 @@ This project is a real-time weather alert system...
 ## 📸 Screenshots
 
 ### 🖥️ Dashboard View
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### 🌧️ Weather Alert Example
 ![Alert](screenshots/Weather_Prediction.png)
